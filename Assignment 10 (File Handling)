@@ -1,5 +1,5 @@
 file = open("test.csv", "a")
-file.write("This is my first file \n Shrivardhan!")
+file.write("This is my first file \n Ayush!")
 file.close()
 
 print("File created successfully.") 
