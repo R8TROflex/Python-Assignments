@@ -1,0 +1,17 @@
+file = open("test.csv", "a")
+file.write("This is my first file \n Shrivardhan!")
+file.close()
+
+print("File created successfully.") 
+
+
+#Binary File handling belows...
+
+f = open("ex.bin", "wb")
+f.write(b"This is file")
+
+f.close()
+
+f = open("ex.bin","rb")
+f.read()
+f.close()
